@@ -4,7 +4,10 @@ version = "0.0.0"
 
 [dependencies]
 AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+MoveNursery = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib/nursery/", rev = "main" }
 
 [addresses]
-
-
+Coin = "0x2"
+CoinSwap = "0xF"
+GoldCoin = "0x9C"
+SilverCoin = "0x5C"
